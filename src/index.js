@@ -1,4 +1,8 @@
-:class Square extends React.Component {
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+
+class Square extends React.Component {
   render() {
     return (
       <button className="square">
@@ -61,4 +65,3 @@ ReactDOM.render(
   <Game />,
   document.getElementById('root')
 );
-
